@@ -1,13 +1,173 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-color: white;
+ font-family: "Inter", sans-serif;
+  margin: 0 auto;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-ul{
+    margin-left: 425.06px;
 }
+.input-text{
+    width: 100%;
+}
+.convene-bac-img{
+    width: 89.86%;
+}
+.convene{
+    display: flex;
+    width: 45%;
+}
+.convene-join-con{
+    margin-left: 625px;
+}
+.footer-big-con{
+    width: 100%;
+}
+.card-collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo-links{
+    margin-top: 36px;
+}
+.footer-para{
+    margin-top: 24px;
+}
+.footer-plane-event{
+    width: 45%;
+}
+.footer-cont{
+    width: 86%;
+}
+.footer-button{
+    right: 8%
+}
+.placeholder-style::placeholder{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: 
+    #000000;
+}
+.placeholder-title::placeholder{
+    padding-left: 148px;
+    font-weight: 400;
+    font-size: 14px;
+    color: 
+    #000000;
+}
+
+.section{
+    width: 88.89%;
+    height: 376px;
+}
+.section-title{
+    line-height: 60px;
+    width: 90%;
+    font-size: 40px;
+}
+.input-field{
+    width: 90%;
+}
+.sect-para{
+    line-height: 30px;
+}
+.layout-cont{
+  width: 55%;
+}
+@media (max-width: 1500px){
+    .convene{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section{
+        display:  flex;
+         /* flex-direction: column;
+        margin-bottom: 400px; */
+    }
+    .card-collection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns, each taking up 1 fraction */
+       
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-button{
+        right: 31.5%;
+    }
+    .footer-cont{
+        width: 100%;
+    }
+    .logo-links{
+        margin-top: 15px;
+    }
+    .footer-plane-event{
+        justify-content: space-between;
+        
+    }
+    .footer-para{
+        margin-top: 0;
+    }
+}
+@media (max-width: 1200px){
+    .convene-title{
+       margin-bottom: 0;
+       margin-top: 0;
+    }
+    .footer{
+      align-items: normal;
+    }
+    .footer-cont{
+        width: auto;
+    }
+}
+@media (max-width: 500px){
+    .section-title{
+        line-height: normal;
+        font-size: 33px;
+        width: auto;
+    }
+    .layout-cont{
+        width: auto;
+    }
+    .section{
+        height: auto;
+         flex-direction: column;
+    }
+    .sec-img{
+       
+    }
+    .sect-para{
+        line-height: normal;
+    }
+ .header-ul{
+    margin-left: auto;
+ }
+ .convene-bac-img{
+    width: auto;
+ }
+ .convene-join-con{
+    margin-left: 548px;
+ }
+ .footer-big-con{
+    width: 157%;
+ }
+ .footer{
+    margin-left: 103px;
+ }
+ .footer-button{
+    right: -4.5px;
+ }
+ .input-field{
+    width: 60%;
+ }
+ .input-section{
+    margin-left: 30px;
+ }
+}
+
+/* Define additional @font-face rules for other weights and styles as needed */
